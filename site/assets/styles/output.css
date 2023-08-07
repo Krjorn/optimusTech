@@ -533,3 +533,118 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.btn {
+  padding: 0.625rem 1.125rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.btn-active {
+  background-color: #8E2424;
+  border-color: #8E2424;
+  color: #FFFFFF;
+}
+
+.btn-inactive {
+  color: #667085;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.max-w-screen-xl {
+  max-width: 1280px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.bg-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-18 {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(58 64 78 / var(--tw-text-opacity));
+}
+
+.text-tertiary {
+  --tw-text-opacity: 1;
+  color: rgb(102 112 133 / var(--tw-text-opacity));
+}
+
+.hover\:btn-hover:hover {
+  background-color: #FFFFFF;
+  border-color: #8E2424;
+  color: #8E2424;
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(58 64 78 / var(--tw-text-opacity));
+}
