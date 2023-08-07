@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        padding: theme('padding.[2.5]') theme('padding.18');
+        border: 1px solid theme('borderColor.transparent');
+        border-radius: theme('borderRadius.lg');
+        font-weight: theme('fontWeight.medium');
+    }
+
+    .btn-active {
+        background-color: theme('colors.secondary');
+        border-color: theme('colors.secondary');
+        color: theme('colors.background');
+    }
+
+    .btn-inactive {
+        color: theme('colors.tertiary');
+    }
+
+    .btn-hover {
+        background-color: theme('colors.background');
+        border-color: theme('colors.secondary');
+        color: theme('colors.secondary');
+    }
+}
