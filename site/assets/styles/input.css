@@ -17,12 +17,34 @@
     }
 
     .btn-inactive {
-        color: theme('colors.tertiary');
+        color: theme('colors.g-2');
     }
 
     .btn-hover {
         background-color: theme('colors.background');
         border-color: theme('colors.secondary');
         color: theme('colors.secondary');
+    }
+
+    .section-h1,
+    .section-h2 {
+        font-weight: theme('fontWeight.semibold');
+        margin-bottom: theme('margin.6');
+    }
+
+    .section-h1 {
+        color: theme('colors.secondary');
+    }
+
+    .section-h2 {
+        color: theme('colors.g-3');
+        font-size: theme('fontSize.5xl');
+    }
+
+    .section-p {
+        font-size: theme('fontSize.xl');
+        color: theme('colors.g-2');
+        max-width: theme('maxWidth.screen-lg');
+        margin: theme('margin.auto');
     }
 }

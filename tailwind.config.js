@@ -10,7 +10,9 @@ module.exports = {
         'background': '#FFFFFF',
         'primary': '#3A404E',
         'secondary': '#8E2424',
-        'tertiary': '#667085',
+        'g-1': '#98A2B3',
+        'g-2': '#667085',
+        'g-3': '#101828',
       },
       padding: {
         '18': '1.125rem',
