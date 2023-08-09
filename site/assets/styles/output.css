@@ -551,31 +551,48 @@ video {
   color: #667085;
 }
 
-.section-h1,
-    .section-h2 {
+.section-title,
+    .section-subtitle {
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 
-.section-h1 {
+.section-title {
   color: #8E2424;
 }
 
-.section-h2 {
+.section-subtitle {
   color: #101828;
   font-size: 3rem;
 }
 
-.section-p {
-  font-size: 1.25rem;
+.section-text {
   color: #667085;
+  font-size: 1.25rem;
   max-width: 1024px;
   margin: auto;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.metrics-number {
+  color: #8E2424;
+  font-size: 3.75rem;
+  font-weight: 600;
+}
+
+.metrics-title {
+  color: #101828;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.max-1280 {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .flex {
@@ -590,8 +607,8 @@ video {
   width: 1.75rem;
 }
 
-.max-w-screen-xl {
-  max-width: 1280px;
+.max-w-280 {
+  max-width: 280px;
 }
 
 .cursor-pointer {
