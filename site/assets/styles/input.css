@@ -16,14 +16,23 @@
         color: theme('colors.background');
     }
 
+    .active-hover {
+        background-color: theme('colors.background');
+        border-color: theme('colors.secondary');
+        color: theme('colors.secondary');
+    }
+
     .btn-inactive {
         color: theme('colors.g-2');
     }
 
-    .btn-hover {
-        background-color: theme('colors.background');
-        border-color: theme('colors.secondary');
-        color: theme('colors.secondary');
+    .inactive-hover {
+        border-color: theme('colors.primary');
+        color: theme('colors.primary');
+    }
+
+    .t-ease {
+        transition: theme('transitionDuration.150') theme('transitionTimingFunction.in');
     }
 
     .section-title,
@@ -71,8 +80,20 @@
         margin-bottom: theme('margin.2');
     }
 
+    .jobs-card {
+        padding: theme('padding.6');
+        border: 1px solid theme('colors.g-border');
+        border-radius: theme('borderRadius.2xl');
+        cursor: theme('cursor.pointer');
+    }
+
     .max-1280 {
         max-width: theme('maxWidth.screen-xl');
+        margin-inline: theme('margin.auto');
+    }
+
+    .max-768 {
+        max-width: theme('maxWidth.screen-md');
         margin-inline: theme('margin.auto');
     }
 }
