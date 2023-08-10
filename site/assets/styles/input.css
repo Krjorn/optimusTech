@@ -36,6 +36,16 @@
         color: theme('colors.secondary');
     }
 
+    .section-title1 {
+        width: theme('width.fit');
+        margin-inline: theme('margin.auto');
+        margin-bottom: theme('margin.4');
+        font-size: theme('fontSize.sm');
+        border-radius: theme('borderRadius.2xl');
+        padding: theme('padding.1') theme('padding.3');
+        background-color: theme('colors.secondary-o-1');
+    }
+
     .section-subtitle {
         color: theme('colors.g-3');
         font-size: theme('fontSize.5xl');
