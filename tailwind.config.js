@@ -17,6 +17,7 @@ module.exports = {
         'g-2': '#667085',
         'g-3': '#101828',
         'g-border': '#EAECF0',
+        'input-border': '#D0D5DD',
       },
       padding: {
         '18': '1.125rem',

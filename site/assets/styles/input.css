@@ -94,6 +94,13 @@
         background-color: theme('colors.secondary-o-2');
     }
 
+    .email-input {
+        padding: theme('padding.[2.5]') theme('padding.4');
+        border: 1px solid theme('colors.input-border');
+        border-radius: theme('borderRadius.lg');
+        color: theme('colors.g-2');
+    }
+
     .max-1280 {
         max-width: theme('maxWidth.screen-xl');
         margin-inline: theme('margin.auto');
