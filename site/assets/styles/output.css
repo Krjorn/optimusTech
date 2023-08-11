@@ -534,6 +534,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+/* BUTTONS */
+
 .btn {
   padding: 0.625rem 1.125rem;
   border: 1px solid transparent;
@@ -555,22 +557,12 @@ video {
   transition: 150ms cubic-bezier(0.4, 0, 1, 1);
 }
 
+/* COMMON TITLES, SUBTITLES & TEXTS */
+
 .section-title,
     .section-subtitle {
   font-weight: 600;
   margin-bottom: 1.5rem;
-}
-
-.mobile-account {
-  position: absolute;
-  top: 50px;
-  right: 0;
-  text-align: right;
-  margin-right: 2rem;
-  padding: 1rem;
-  background-color: rgba(195, 25, 25, 0.03);
-  border-radius: .5rem;
-  color: #667085;
 }
 
 .section-title {
@@ -599,6 +591,22 @@ video {
   margin: auto;
 }
 
+/* RESPONSIVE MENUS */
+
+.mobile-account {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  text-align: right;
+  margin-right: 2rem;
+  padding: 1rem;
+  background-color: rgba(195, 25, 25, 0.03);
+  border-radius: .5rem;
+  color: #667085;
+}
+
+/* METRICS */
+
 .metrics-number {
   color: #8E2424;
   font-size: 3.75rem;
@@ -611,6 +619,8 @@ video {
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
+
+/* ------ */
 
 .jobs-card {
   padding: 1.5rem;
@@ -633,6 +643,8 @@ video {
   border-radius: 0.5rem;
   color: #667085;
 }
+
+/* MAX-WIDTHS */
 
 .max-1280 {
   max-width: 1280px;
@@ -915,31 +927,11 @@ video {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
-  .max-lg\:text-center {
-    text-align: center;
-  }
 }
 
 @media not all and (min-width: 768px) {
   .max-md\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .max-md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
-  .max-md\:mb-8 {
-    margin-bottom: 2rem;
-  }
-
-  .max-md\:mb-6 {
-    margin-bottom: 1.5rem;
-  }
-
-  .max-md\:mb-10 {
-    margin-bottom: 2.5rem;
   }
 
   .max-md\:mb-16 {
@@ -957,11 +949,6 @@ video {
   .max-md\:px-1 {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-  }
-
-  .max-md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .max-md\:py-16 {

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+    /* BUTTONS */
     .btn {
         padding: theme('padding.[2.5]') theme('padding.18');
         border: 1px solid theme('borderColor.transparent');
@@ -35,35 +36,12 @@
         transition: theme('transitionDuration.150') theme('transitionTimingFunction.in');
     }
 
+    /* COMMON TITLES, SUBTITLES & TEXTS */
+
     .section-title,
     .section-subtitle {
         font-weight: theme('fontWeight.semibold');
         margin-bottom: theme('margin.6');
-    }
-
-    .mobile-pages {
-        flex-direction: column;
-        align-items: center;
-        gap: 200px;
-        position: absolute;
-        top: 50px;
-        left: 0;
-        margin-left: 2rem;
-        padding: 1rem;
-        background-color: theme('colors.secondary-o-2');
-        border-radius: .5rem;
-    }
-
-    .mobile-account {
-        position: absolute;
-        top: 50px;
-        right: 0;
-        text-align: right;
-        margin-right: 2rem;
-        padding: 1rem;
-        background-color: theme('colors.secondary-o-2');
-        border-radius: .5rem;
-        color: theme('colors.g-2');
     }
 
     .section-title {
@@ -91,6 +69,35 @@
         margin: theme('margin.auto');
     }
 
+    /* RESPONSIVE MENUS */
+
+    .mobile-pages {
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        margin-left: 2rem;
+        padding: 1rem;
+        background-color: theme('colors.secondary-o-2');
+        border-radius: .5rem;
+    }
+
+    .mobile-account {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        text-align: right;
+        margin-right: 2rem;
+        padding: 1rem;
+        background-color: theme('colors.secondary-o-2');
+        border-radius: .5rem;
+        color: theme('colors.g-2');
+    }
+
+    /* METRICS */
+
     .metrics-number {
         color: theme('colors.secondary');
         font-size: theme('fontSize.6xl');
@@ -103,6 +110,8 @@
         font-weight: theme('fontWeight.medium');
         margin-bottom: theme('margin.2');
     }
+
+    /* ------ */
 
     .jobs-card {
         padding: theme('padding.6');
@@ -125,6 +134,8 @@
         border-radius: theme('borderRadius.lg');
         color: theme('colors.g-2');
     }
+
+    /* MAX-WIDTHS */
 
     .max-1280 {
         max-width: theme('maxWidth.screen-xl');
