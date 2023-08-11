@@ -4,6 +4,14 @@
   },
 
   "scripts": {
-    "tail-watch": "npx tailwindcss -i ./site/assets/styles/input.css -o ./site/assets/styles/output.css --watch"
+    "tail-watch": "npx tailwindcss -i ./site/assets/styles/input.css -o ./site/assets/styles/output.css --watch",
+
+    "docs": "mkdir docs docs\\assets docs\\assets\\styles docs\\assets\\img",
+
+    "minify-html": "html-minifier-terser --file-ext html --collapse-whitespace --remove-comments --input-dir site/ --output-dir docs/",
+    "minify-css": "cleancss site/assets/styles/output.css -o docs/assets/styles/output.css",
+    "imagemin": "imagemin site/assets/img -o docs/assets/img",
+
+    "minify": "npm run minify-html && npm run minify-css && npm run imagemin"
   }
 }
