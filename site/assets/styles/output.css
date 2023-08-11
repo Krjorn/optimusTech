@@ -955,6 +955,11 @@ video {
     padding-bottom: 4rem;
   }
 
+  .max-md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .max-md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
