@@ -47,8 +47,7 @@
 
     .section-title1 {
         width: theme('width.fit');
-        margin-inline: theme('margin.auto');
-        margin-bottom: theme('margin.4');
+        margin: theme('margin.0') theme('margin.auto') theme('margin.4');
         font-size: theme('fontSize.sm');
         border-radius: theme('borderRadius.2xl');
         padding: theme('padding.1') theme('padding.3');
@@ -85,6 +84,14 @@
         border: 1px solid theme('colors.g-border');
         border-radius: theme('borderRadius.2xl');
         cursor: theme('cursor.pointer');
+    }
+
+    .testimonial {
+        max-width: theme('maxWidth.1216');
+        margin: theme('margin.0') theme('margin.auto') theme('margin.24');
+        padding: theme('padding.16');
+        border-radius: theme('borderRadius.2xl');
+        background-color: theme('colors.secondary-o-2');
     }
 
     .max-1280 {
