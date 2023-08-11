@@ -874,7 +874,6 @@ video {
   .max-lg\:mobile-pages {
     flex-direction: column;
     align-items: center;
-    gap: 200px;
     position: absolute;
     top: 50px;
     left: 0;
