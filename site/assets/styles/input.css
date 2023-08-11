@@ -41,6 +41,31 @@
         margin-bottom: theme('margin.6');
     }
 
+    .mobile-pages {
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        margin-left: 2rem;
+        padding: 1rem;
+        background-color: theme('colors.secondary-o-2');
+        border-radius: .5rem;
+    }
+
+    .mobile-account {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        text-align: right;
+        margin-right: 2rem;
+        padding: 1rem;
+        background-color: theme('colors.secondary-o-2');
+        border-radius: .5rem;
+        color: theme('colors.g-2');
+    }
+
     .section-title {
         color: theme('colors.secondary');
     }
